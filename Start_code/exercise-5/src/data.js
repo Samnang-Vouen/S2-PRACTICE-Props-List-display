@@ -1,9 +1,14 @@
+import image1 from "./assets/1.png";
+import image2 from "./assets/2.png";    
+import image3 from "./assets/3.png";
+import image4 from "./assets/4.png";
+
 export const PERSON = [
     {
         id: "p1",
         name: "John Doe",
         image: {
-            src: "./assets/1.jpg",
+            src: image1,
             alt: "John Doe"
         },
         hobby: "Reading books",
@@ -13,7 +18,7 @@ export const PERSON = [
         id: "p2",
         name: "Jane Smith",
         image: {
-            src: "./assets/2.jpg", 
+            src: image2, 
             alt: "Jane Smith"
         },
         hobby: "Photography",
@@ -23,7 +28,7 @@ export const PERSON = [
         id: "p3",
         name: "Chris Lee",
         image: {
-            src: "./assets/3.jpg",  
+            src: image3,  
             alt: "Chris Lee"
         },
         hobby: "Cycling",
@@ -33,7 +38,7 @@ export const PERSON = [
         id: "p4",
         name: "Emma White",
         image: {
-            src: "./assets/4.jpg",
+            src: image4,
             alt: "Emma White"
         },
         hobby: "Cooking",
